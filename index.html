@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #000000; /* Set the background color to black */
+      color: white; /* Set the default text color to white for visibility */
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #74cbff; /* Change the color as needed */
+      font-family: 'Roboto Slab', sans-serif; /* Apply the Google font */
+      font-size: 38px; /* Set the font size */
+      text-align: left; /* Align the text to the left */
+      margin-top: 0px; /* Remove top margin */
+      margin-left: 20px;
+      margin-bottom: 5px; /* Decrease bottom margin to reduce space */
+      letter-spacing: 0px; /* Remove space between letters */
+    }
+
+    h4 {
+      color: #ffffff; /* Change the color as needed */
+      font-family: 'Roboto Slab', sans-serif; /* Apply the Google font */
+      font-size: 28px; /* Set the font size */
+      text-align: left; /* Align the text to the left */
+      margin-top: 20px; /* Top margin for the first h4 */
+      margin-left: 20px;
+      margin-bottom: 5px; /* Decrease bottom margin to reduce space */
+      letter-spacing: 0px; /* Remove space between letters */
+    }
+
+    h4.second {
+      margin-top: 0px; /* Use a negative margin to reduce space */
+      margin-left: 0px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #74cbff;
+    }
+
+    li {
+      display: inline;
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #97f9ed;
+    }
+
+    /* Styles for the skill container */
+    .skill-container {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+      margin-top: 0px; /* Decrease the space between the skill set and h1 tag */
+    }
+
+    .skill-text {
+      color: #74cbff; /* Match the color of the h1 tag */
+      font-size: 28px;
+      margin-left: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      position: relative;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    /* Styles for the image */
+    .profile-image {
+      position: absolute;
+      top: 70px;
+      right: 50px;
+      width: 220px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); /* Add shadow for fade effect */
+    }
+
+    .profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Styles for the content sections */
+    .content-section {
+      padding: 20px;
+    }
+
+    #Qualification h2, #Skills h2, #Certifications h2, #Internships h2, #Projects h2, #Contact h2 {
+      background-color: #74cbff; /* Consistent color */
+      text-align: center;
+      font-size: 28px;
+      color: #000000;
+      border: 2px solid blue;
+      border-radius: 15px;
+      margin-top:30px;
+    }
+
+    .contact-info, .qualification-item, .skill-item, .certification-item, .internship-item, .project-item {
+      background-color: #1a1a1a;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+
+    /* Style for login button */
+    .login-button {
+      display: inline-block;
+      color: #000000;
+      background-color: #74cbff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-left: 20px;
+      margin-top:50px;
+    }
+
+    .login-button:hover {
+      background-color: #97f9ed;
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#Home">Home</a></li>
+  <li><a href="#Qualification">Qualification</a></li>
+  <li><a href="#Skills">Skills</a></li>
+  <li><a href="#Certifications">Certifications</a></li>
+  <li><a href="#Internships">Internships</a></li>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Contact">Contact</a></li>
+</ul>
+
+<div id="Home" class="content-section">
+  <h4>Hello I'm</h4>
+  <h1>Rajesh Yadav Bandari</h1>
+
+  <div class="skill-container">
+    <h4 class="second">and I'm capable in</h4>
+    <div class="skill-text" id="skills"></div>
+  </div>
+  
+  <b><a href="https://drive.google.com/file/d/1LMkXNUeDBkT3GEKooI02U7tB3tFXxMPr/view?usp=sharing" class="login-button">VIEW RESUME</a></b>
+<b><a href="https://www.linkedin.com/in/rajesh-bandari-97119426b/" class="login-button" >LINKEDIN</a></b>
+<b><a href="https://github.com/2203A53018" class="login-button">GITHUB</a></b>
+
+<div class="profile-image">
+  <img src="me.png" alt="Profile Image">
+</div>
+
+
+</div>
+
+<div id="Qualification" class="content-section">
+  <h2>Qualification</h2>
+  <div class="qualification-item">
+    <h3>Bachelor of Technology in Computer Science</h3>
+    <p><strong>Institution:</strong> SR University</p>
+    <p><strong>Year:</strong> 2022 - 2026</p>
+    <p><strong>CGPA:</strong> 7.69/10</p>
+  </div>
+  <div class="qualification-item">
+    <h3>Intermediate Education</h3>
+    <p><strong>Institution:</strong> Narayana Junior College</p>
+    <p><strong>Year:</strong> 2020 - 2022</p>
+    <p><strong>Percentage:</strong> 65.9%</p>
+  </div>
+</div>
+<div id="Skills" class="content-section">
+  <h2>Skills</h2>
+  <div class="skill-item">
+    <p>Programming Languages: JavaScript, Python, Java,c</p>
+  </div>
+  <div class="skill-item">
+    <p>Web Technologies: HTML5, CSS3, React, Node.js</p>
+  </div>
+  <div class="skill-item">
+    <p>Databases: MySQL, MongoDB</p>
+  </div>
+  <div class="skill-item">
+    <p>Tools: Git</p>
+  </div>
+</div>
+
+<div id="Certifications" class="content-section">
+  <h2>Certifications</h2>
+  <div class="certification-item">
+    <h3>Data Structures and Algorithms</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Introduction to MongoDB</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Relational Database Design</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Software Engineering: Modeling Software Systems using UML</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Computer Networking</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Innovation for Entrepreneurs: From Idea to Marketplace</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Introduction to Hardware and Operating Systems</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Hands-on Introduction to Linux Commands and Shell Scripting</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Linux: Processes and System Resource Management for DevOps</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+<div class="certification-item">
+    <h3>Genome Assembly Programming Challenge</h3>
+    <p><strong>Platform:</strong> Coursera</p>
+    <p><strong>Year:</strong> 2021</p>
+  </div>
+
+ </div>
+
+<div id="Internships" class="content-section">
+  <h2>Internships</h2>
+  <div class="internship-item">
+    <h3>Frontend Development Intern</h3>
+    <p><strong>Company:</strong>Internpe</p>
+    <p><strong>Duration:</strong> June 2021 - August 2021</p>
+    <p><strong>Responsibilities:</strong>word with some projects using HTML, Css, JavaScript</p>
+  </div>
+  </div>
+
+<div id="Projects" class="content-section">
+  <h2>Projects</h2>
+  <div class="project-item">
+    <h3>Online Portfolio Website</h3>
+    <p><strong>Description:</strong> Developed a personal portfolio website to showcase projects and skills.</p>
+    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+  </div>
+  <div class="project-item">
+    <h3>Fighting Robot</h3>
+    <p><strong>Description:</strong>Designed and developed a fighting robot using Arduino, integrating a motor-driven blade mechanism for attack capabilities, mounted on a car model for mobility. This project demonstrates proficiency in robotics, embedded systems, and mechanical design.</p>
+    <p><strong>Technologies:</strong> C, Arduino</p>
+      </div>
+</div>
+
+<div id="Contact" class="content-section">
+  <h2>Contact</h2>
+  <ul class="contact-info">
+    <li><strong>Email:</strong> rajeshbandari2606@gmail.com</li><br><br>
+    <li><strong>Phone:</strong>+91 7993443982</li><br><br>
+    
+
+  </ul>
+</div>
+
+<script>
+  const skills = ['JavaScript', 'HTML & CSS', 'React', 'Node.js', 'Python', 'Django'];
+  let skillIndex = 0;
+  const skillElement = document.getElementById('skills');
+
+  function showSkill() {
+    skillElement.style.opacity = 0; // Start fade out
+    setTimeout(() => {
+      skillElement.textContent = skills[skillIndex];
+      skillElement.style.opacity = 1; // Start fade in
+      skillIndex = (skillIndex + 1) % skills.length;
+    }, 1000); // Wait for fade out to complete
+  }
+
+  setInterval(showSkill, 4000); // Change skill every 4 seconds
+  showSkill(); // Initial call
+</script>
+
+</body>
+</html>
+
